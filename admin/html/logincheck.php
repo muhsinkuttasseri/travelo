@@ -17,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
  if($count==1) {
   $_SESSION['login_admin']=$username;
   setcookie('login_admin', $username, time() + (86400 * 30), "");
-  header("location:http://localhost/travelo");
+  header("location:http://localhost/");
  }
 }
 ?>

@@ -49,7 +49,7 @@ if (isset($_POST['first_name'])) {
 	if($result){
 		echo "Register Successfull....";
 
-		header('location:http://localhost/travelo');
+		header('location:http://localhost');
 	}
 	else {
 		echo "Failed";
