@@ -410,7 +410,7 @@
                      <div class="media post_item">
                         <img src="img/post/post_1.png" alt="post">
                         <div class="media-body">
-                           <a href="single-blog.html">
+                           <a href="single-blog.php">
                               <h3>From life was you fish...</h3>
                            </a>
                            <p>January 12, 2019</p>

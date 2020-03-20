@@ -50,14 +50,14 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="index.html">home</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a class="" href="travel_destination.html">Destination</a></l/li>
-                                            <li><a href="hospital.html">Hospital</a></li>
+                                            <li><a class="active" href="index.php">home</a></li>
+                                            <li><a href="about.php">About</a></li>
+                                            <li><a class="" href="travel_destination.php">Destination</a></l/li>
+                                            <li><a href="hospital.php">Hospital</a></li>
                                           
-                                            <li><a href="single-blog.html">Blog</a></li>
+                                            <li><a href="single-blog.php">Blog</a></li>
                                                </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
