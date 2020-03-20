@@ -41,7 +41,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <img src="img/logo.png" alt="">
                                     </a>
                                 </div>
@@ -50,22 +50,22 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a class="active" href="index.html">home</a></li>
-                                            <li><a href="about.html">About</a></li>
-                                            <li><a class="" href="travel_destination.html">Destination</a></l/li>
+                                            <li><a class="active" href="index.php">home</a></li>
+                                            <li><a href="about.php">About</a></li>
+                                            <li><a class="" href="travel_destination.php">Destination</a></l/li>
                                             <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                        <li><a href="destination_details.html">Destinations details</a></li>
-                                                        <li><a href="elements.html">elements</a></li>
+                                                        <li><a href="destination_details.php">Destinations details</a></li>
+                                                        <li><a href="elements.php">elements</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">blog</a></li>
-                                                    <li><a href="single-blog.html">single-blog</a></li>
+                                                    <li><a href="blog.php">blog</a></li>
+                                                    <li><a href="single-blog.php">single-blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="contact.php">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -185,7 +185,7 @@
                                     <a href="#" class="prise">$500</a>
                                 </div>
                                 <div class="place_info">
-                                    <a href="destination_details.html"><h3>California</h3></a>
+                                    <a href="destination_details.php"><h3>California</h3></a>
                                     <p>United State of America</p>
                                     <div class="rating_days d-flex justify-content-between">
                                         <span class="d-flex justify-content-center align-items-center">
@@ -237,7 +237,7 @@
                                     <a href="#" class="prise">$500</a>
                                 </div>
                                 <div class="place_info">
-                                    <a href="destination_details.html"><h3>London</h3></a>
+                                    <a href="destination_details.php"><h3>London</h3></a>
                                     <p>United State of America</p>
                                     <div class="rating_days d-flex justify-content-between">
                                         <span class="d-flex justify-content-center align-items-center">
@@ -263,7 +263,7 @@
                                     <a href="#" class="prise">$500</a>
                                 </div>
                                 <div class="place_info">
-                                    <a href="destination_details.html"><h3>Miami Beach</h3></a>
+                                    <a href="destination_details.php"><h3>Miami Beach</h3></a>
                                     <p>United State of America</p>
                                     <div class="rating_days d-flex justify-content-between">
                                         <span class="d-flex justify-content-center align-items-center">
@@ -289,7 +289,7 @@
                                     <a href="#" class="prise">$500</a>
                                 </div>
                                 <div class="place_info">
-                                    <a href="destination_details.html"><h3>California</h3></a>
+                                    <a href="destination_details.php"><h3>California</h3></a>
                                     <p>United State of America</p>
                                     <div class="rating_days d-flex justify-content-between">
                                         <span class="d-flex justify-content-center align-items-center">
@@ -315,7 +315,7 @@
                                     <a href="#" class="prise">$500</a>
                                 </div>
                                 <div class="place_info">
-                                    <a href="destination_details.html"><h3>Saintmartine Iceland</h3></a>
+                                    <a href="destination_details.php"><h3>Saintmartine Iceland</h3></a>
                                     <p>United State of America</p>
                                     <div class="rating_days d-flex justify-content-between">
                                         <span class="d-flex justify-content-center align-items-center">
@@ -570,9 +570,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
                         </p>
                     </div>
                 </div>
@@ -593,11 +591,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </div>
   </div>
     <!-- link that opens popup -->
-<!--     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
-
-    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"> </script> -->
+    
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
@@ -619,8 +613,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/gijgo.min.js"></script>
     <script src="js/slick.min.js"></script>
    
-
-    
     <!--contact js-->
     <script src="js/contact.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
