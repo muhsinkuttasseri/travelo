@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/login.css" defer />
+    <title>MedPlusTours-Log in</title>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="../img/user.png"
+        width="100px"
+        height="100px"
+        class="user-img"
+      />
+
+      <h2>Log in here</h2>
+      <!--action=logincheck php-->
+
+      <form action="logincheck.php" method="post">
+        <div class="input-wrap">
+          <input
+            type="text"
+            name="emailUname"
+            id="username"
+            aria-label="username or email"
+            autofocus
+            required
+          />
+          <label for="username" class="input-label">
+            <span class="label-content">Email or Username</span>
+          </label>
+        </div>
+
+        <div class="input-wrap">
+          <input
+            type="password"
+            name="pwd"
+            id="pwd"
+            aria-label="password"
+            required
+          />
+          <label for="password" class="input-label">
+            <span class="label-content">Password</span>
+          </label>
+        </div>
+        <a href="#">forgot password!</a>
+
+        <input type="submit" id="submit" name="login-submit" value="Log In" />
+      </form>
+      <br /><br /><br />
+      <p style="padding-left: 10px; font-size: 14px; color: #fff;">
+        Don't have an account?
+        <a href="signup.html">Signup</a>
+      </p>
+    </div>
+  </body>
+</html>

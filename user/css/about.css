@@ -1,0 +1,11 @@
+.person-info::before {
+  content: "Creaters";
+  position: absolute;
+  top: 0;
+  left: 15px;
+  padding: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #fff;
+  transform: translate(0, -50%);
+}

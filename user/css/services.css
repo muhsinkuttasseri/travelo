@@ -1,0 +1,26 @@
+.person-info::before {
+  content: "Services";
+  position: absolute;
+  top: 0;
+  left: 15px;
+  padding: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #fff;
+  transform: translate(0, -50%);
+}
+.person-info p {
+  display: block;
+  line-height: 2;
+  font-size: 1.4rem;
+}
+main a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  color: #fff;
+  background-color: #36255b;
+  border-radius: 50px;
+  text-decoration: none;
+}

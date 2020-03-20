@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-width: 460px;
+  padding-top: 80px;
+  background: url("../img/bgimg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card {
+  width: 500px;
+  margin: auto;
+  padding: 70px 0 20px 0;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.user-img {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+h2 {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #134b64;
+}
+
+form {
+  padding: 20px 40px 0 40px;
+}
+
+.input-wrap {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.input-wrap > input {
+  width: 100%;
+  height: 54px;
+  padding: 25px 8px 0 8px;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  font-size: 14px;
+  color: #fff;
+}
+.input-wrap > .input-label {
+  pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: solid grey 2px;
+}
+.input-label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+  border-bottom: solid #0066ff 2px;
+  transition: transform 150ms ease;
+}
+.label-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 150ms ease;
+  max-width: calc(100% - (2 * 8px));
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.input-wrap > input:focus + .input-label > .label-content,
+.input-wrap > input:valid + .input-label > .label-content {
+  transform: translateY(-130%);
+  font-size: 14px;
+  color: #5d9cef;
+}
+.input-wrap > input:focus + .input-label::after,
+.input-wrap > input:valid + .input-label::after {
+  transform: translateX(0%);
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  margin: 5px auto;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-color: #1aa3ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  cursor: pointer;
+  background-color: #0066ff;
+}
+
+a {
+  font-size: 14px;
+  color: #fff;
+}
+@media only screen and (max-width: 540px) {
+  .card {
+    width: 350px;
+  }
+}

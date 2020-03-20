@@ -1,0 +1,15 @@
+.person-info::before {
+  content: "FAQ";
+  position: absolute;
+  top: 0;
+  left: 15px;
+  padding: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #fff;
+  transform: translate(0, -50%);
+}
+.person-info div p:nth-child(even) {
+  margin: 5px 0 10px 20px;
+  line-height: 2;
+}
