@@ -53,7 +53,7 @@
                                             <li><a class="active" href="index.html">home</a></li>
                                             <li><a href="about.html">About</a></li>
                                             <li><a class="" href="travel_destination.html">Destination</a></l/li>
-                                            <li><a href="http://localhost/travelo/hospital.html">Hospital</a></li>
+                                            <li><a href="hospital.html">Hospital</a></li>
                                           
                                             <li><a href="single-blog.html">Blog</a></li>
                                                </li>

@@ -18,7 +18,7 @@ if (isset($_POST['btn_reg'])) {
 	$result = mysqli_query($conn,$sql);
 	if($result){
 		echo "Register Successfull....";
-		header('location:http://localhost/travelo/admin/html/adminsignup.html');
+		header('location:http://localhost/admin/html/adminsignup.html');
 	}
 	else {
 		echo "Failed";

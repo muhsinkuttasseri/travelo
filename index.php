@@ -53,7 +53,7 @@
                                             <li><a class="active" href="index.php">home</a></li>
                                             <li><a href="about.php">About</a></li>
                                             <li><a class="" href="travel_destination.php">Destination</a></l/li>
-                                            <li><a href="http://localhost/travelo/hospital.php">Hospital</a></li>
+                                            <li><a href="hospital.php">Hospital</a></li>
                                           
                                             <li><a href="single-blog.php">Blog</a></li>
                                                </li>
@@ -110,7 +110,7 @@
                             <div class="slider_text text-center">
                                 <h3>TRAVELO</h3>
                                 <p>Travelo perfect trip with awesome Gratitude</p>
-                                <a href="http://localhost/travelo/form1.php" class="boxed-btn3">Book Now</a>
+                                <a href="form1.php" class="boxed-btn3">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                             <div class="slider_text text-center">
                                 <h3>TRAVELO</h3>
                                 <p>Travelo perfect trip with awesome Gratitude</p>
-                                <a href="http://localhost/travelo/form1.php" class="boxed-btn3">Book Now</a>
+                                <a href="form1.php" class="boxed-btn3">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                             <div class="slider_text text-center">
                                 <h3>TRAVELO</h3>
                                 <p>Travelo perfect trip with awesome Gratitude</p>
-                                <a href="http://localhost/travelo/form1.php" class="boxed-btn3">Book Now</a>
+                                <a href="form1.php" class="boxed-btn3">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
                             <img src="img/destination/1.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Delhi<a href="http://localhost/travelo/form1.php">  07 Places</a> </p>
+                            <p class="d-flex align-items-center">Delhi<a href="form1.php">  07 Places</a> </p>
                             
                         </div>
                     </div>
@@ -208,7 +208,7 @@
                             <img src="img/destination/2.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Munnar <a href="http://localhost/travelo/form1.php">  03 Places</a> </p>
+                            <p class="d-flex align-items-center">Munnar <a href="form1.php">  03 Places</a> </p>
                             
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                             <img src="img/destination/3.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Bangalore <a href="http://localhost/travelo/form1.php">  10 Places</a> </p>
+                            <p class="d-flex align-items-center">Bangalore <a href="form1.php">  10 Places</a> </p>
                             
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                             <img src="img/destination/4.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Ooty <a href="http://localhost/travelo/form1.php">  02 Places</a> </p>
+                            <p class="d-flex align-items-center">Ooty <a href="form1.php">  02 Places</a> </p>
                             
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                             <img src="img/destination/5.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Maysoor <a href="http://localhost/travelo/form1.php">  02 Places</a> </p>
+                            <p class="d-flex align-items-center">Maysoor <a href="form1.php">  02 Places</a> </p>
                             
                         </div>
                     </div>
@@ -252,7 +252,7 @@
                             <img src="img/destination/6.png" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Himalaya <a href="http://localhost/travelo/form1.php">  05 Places</a> </p>
+                            <p class="d-flex align-items-center">Himalaya <a href="form1.php">  05 Places</a> </p>
                             
                         </div>
                     </div>

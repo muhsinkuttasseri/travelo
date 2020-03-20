@@ -53,7 +53,7 @@
                                             <li><a class="active" href="index.php">home</a></li>
                                             <li><a href="about.php">About</a></li>
                                             <li><a class="" href="travel_destination.php">Destination</a></l/li>
-                                            <li><a href="http://localhost/travelo/hospital.php">Hospital</a></li>
+                                            <li><a href="hospital.php">Hospital</a></li>
                                           
                                             <li><a href="single-blog.php">Blog</a></li>
                                                </li>
