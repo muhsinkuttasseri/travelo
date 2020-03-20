@@ -18,7 +18,7 @@ if (isset($_POST['contact'])) {
 	if($result){
 		echo "Register Successfull....";
 		//form path//
-		header('location:http://localhost/travelo/contact.html');
+		header('location:http://localhost/contact.php');
 	}
 	else {
 		echo "Failed";
