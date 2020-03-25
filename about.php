@@ -193,7 +193,7 @@
                                         <div class="author_thumb">
                                             <img src="img/testmonial/author.png" alt="">
                                         </div>
-                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
+                                        <p>"".</p>
                                         <div class="testmonial_author">
                                             <h3>- Micky Mouse</h3>
                                         </div>
